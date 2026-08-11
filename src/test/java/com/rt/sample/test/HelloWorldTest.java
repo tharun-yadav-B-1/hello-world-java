@@ -33,7 +33,7 @@ class HelloWorldTest {
 
     @Test
     void testGetNameShouldReturnCorrectName() {
-        String expectedName = "Rushi Technologies Private Limited";
+        String expectedName = "Tharun Technologies Private Limited";
         String actualName = HelloWorldTestWrapper.getName();
         assertEquals(expectedName, actualName, "The name should match the expected value");
     }
